@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="imagens/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/global.css">
+    <title>Kubo e as cordas mágicas</title>
+</head>
+
+<body>
+    <div id="background">
+        <video loop autoplay muted>
+            <source src="./imagens/background-kubo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="header-container">
+        <span class="material-symbols-rounded" id="iconAbrir" onclick="abrirMenu()">
+            menu
+        </span>
+        <span class="material-symbols-rounded" id="iconFechar" onclick="fecharMenu()">close</span>
+        <img src="./imagens/hanzo---01.png" alt="logo-mini-hanzo">
+
+        <nav class="navigation">
+            <ul id="menu">
+                <li><a href="#" class="navigation-link">Home</a></li>
+                <li><a href="#" class="navigation-link">Story</a></li>
+                <li><a href="#" class="navigation-link">Wallpapers</a></li>
+                <li><a href="#" class="navigation-link">Trailer</a></li>
+            </ul>
+        </nav>
+
+        <div id="navigationSocial">
+            <img src="./imagens/redes/facebook-svgrepo-com.svg" alt="logo-facebook">
+            <img src="./imagens/redes/instagram-svgrepo-com.svg" alt="logo-instagram">
+            <img src="./imagens/redes/tiktok-svgrepo-com.svg" alt="logo-tiktok">
+            <img src="./imagens/redes/twitter-154-svgrepo-com (1).svg" alt="logo-twitter">
+            <img src="./imagens/redes/youtube-svgrepo-com.svg" alt="logo-youtube">
+        </div>
+    </header>
+
+    <main>
+        <section class="main-info">
+            <img data-aos="fade-up" data-aos-duration="800" data-aos-easing="easy-in-out" src="./imagens/logo-filme.png"
+                alt="logo-Kubo-e-as-cordas-magicas-em-ingles" width="250px">
+
+            <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-easing="easy-in-out">Kubo invoca
+                acidentalmente um espírito maligno que busca vingança e é obrigado a desvendar o mistério de seu
+                falecido pai samurai e seu arsenal místico. Além disso, ele deve descobrir seus próprios poderes
+                mágicos.</p>
+
+            <div class="butt-buy-watch" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800"
+                data-aos-easing="easy-in-out">
+                <a href="https://youtu.be/RoLronCH8kc?si=E4rKZFI-gA0nKGFi" target="_blank">Assistir trailer</a>
+                <button>Comprar ingresso</button>
+        </section>
+        
+       <img src="./imagens/kubo-transparente.png" alt="imagem-kubo" class="img-perso"></div>
+    </main>
+
+    <script src="./javascript/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
+</body>
+
+</html>
